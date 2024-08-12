@@ -3,6 +3,7 @@ import Profile from "./components/Profile/Profile";
 import userData from "./userData.json";
 import FriendList from "./components/FriendList/FriendList";
 import friends from "./friends.json";
+import "./index.css";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         />
       </section>
       <section>
-        <h2>Friend List</h2>
+        <h2>Friends List</h2>
         <FriendList friends={friends} />
       </section>
     </div>
