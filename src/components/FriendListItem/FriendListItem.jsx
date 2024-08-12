@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import css from "./FriendListItem.module.css";
-console.log(css);
+
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div>
